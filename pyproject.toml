@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geosame"
+version = "0.1.0"
+description = "Public research preview of GeoSAME's audit-first geometry rewriting core."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "GeoSAME Authors"}]
+license = {text = "All rights reserved; see RIGHTS.md"}
+keywords = ["geometry", "semantic-equivalence", "rewriting", "verification", "research"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

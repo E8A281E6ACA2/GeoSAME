@@ -1,0 +1,35 @@
+{
+  "schema_version": "geosame.paper_aggregate_counts.1",
+  "scope_note": "Manuscript-level integer counts only; no item text, images, raw responses, or annotator records.",
+  "main_natural_study": {
+    "originals": 64,
+    "slots_per_original": 8,
+    "planned_slots": 512,
+    "generated_candidates": 504,
+    "generated_strict_yes_diagnostic": 496,
+    "system_accepted": 430,
+    "accepted_strict_yes": 428,
+    "strict_primary_endpoint_successes": 428,
+    "safe_abstentions": 8,
+    "natural_rejections": 74,
+    "rejected_semantic_yes": 68,
+    "strict_false_rejections": 59
+  },
+  "challenge60_text_only_diagnostic": {
+    "gold_yes": 20,
+    "gold_no": 37,
+    "gold_uncertain": 3,
+    "tp": 8,
+    "fn": 12,
+    "fp": 14,
+    "tn": 23,
+    "scope": "Deterministic text-only available checks; not the full model-assisted verifier."
+  },
+  "external_replication": {
+    "attempted": 100,
+    "formal_accepted": 99,
+    "teacher_evaluated": 99,
+    "teacher_semantic_yes_a1": 99,
+    "teacher_semantic_yes_a2": 99
+  }
+}

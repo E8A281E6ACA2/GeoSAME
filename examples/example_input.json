@@ -1,0 +1,25 @@
+{
+  "schema_version": "geosame.minimal_example.1",
+  "problem_id": "synthetic-midpoint-001",
+  "source": {
+    "text": "Point D bisects BC in triangle ABC. If BD = 3, find BC.",
+    "logic_forms": [
+      "Triangle(A,B,C)",
+      "Midpoint(D,BC)",
+      "Value(BD,3)",
+      "Target(Length(BC))"
+    ],
+    "answer": "Answer: 6"
+  },
+  "candidate": {
+    "text": "In triangle ABC, D is the midpoint of BC and BD = 3. Determine the length of BC.",
+    "logic_forms": [
+      "Triangle(A,B,C)",
+      "Midpoint(D,BC)",
+      "Value(BD,3)",
+      "Target(Length(BC))"
+    ],
+    "answer": "Answer: 6"
+  },
+  "provenance": "Synthetic example authored for the public repository."
+}

@@ -1,0 +1,16 @@
+{
+  "main.generated_rate": 0.984375,
+  "main.strict_primary_endpoint": 0.8359375,
+  "main.accepted_strict_yes_conditional": 0.9953488372093023,
+  "main.rejected_semantic_yes_rate": 0.918918918918919,
+  "main.strict_false_rejection_rate": 0.7972972972972973,
+  "main.gate_recall_over_generated_strict_yes": 0.8629032258064516,
+  "challenge60.accuracy": 0.543859649122807,
+  "challenge60.sensitivity": 0.4,
+  "challenge60.specificity": 0.6216216216216216,
+  "challenge60.balanced_accuracy": 0.5108108108108108,
+  "challenge60.matthews_correlation": 0.02119623667730782,
+  "external.formal_acceptance": 0.99,
+  "external.teacher_semantic_yes_a1": 1.0,
+  "external.teacher_semantic_yes_a2": 1.0
+}

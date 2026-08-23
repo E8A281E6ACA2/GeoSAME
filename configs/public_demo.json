@@ -1,0 +1,14 @@
+{
+  "schema_version": "geosame.public_demo.1",
+  "mode": "offline_deterministic",
+  "bounded_revision_attempts": 1,
+  "required_checks": [
+    "predicate_consistent",
+    "no_new_points",
+    "numeric_consistent",
+    "target_consistent",
+    "term_preserved",
+    "answer_consistent"
+  ],
+  "notes": "Synthetic demonstration only; no benchmark content is included."
+}
